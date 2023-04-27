@@ -1,0 +1,33 @@
+/* primeira div */
+.page {
+    background-Color: "#111c2f";
+    color: "#385e9d";
+    height: "100vh";
+    display: "flex";
+    flex-Direction: "column";
+    justify-Content: "center";
+    align-Items: "center";
+}
+
+/* div dos grid de integrantes */
+.grid-members {
+          display: "flex";
+          justify-Content: "space-between";
+          align-Items: "center";
+          flex-Wrap: "wrap";
+          max-Width: "1400px";
+        }
+
+/* div do integrante */
+.member {
+    text-Align: "center"; 
+    margin: "20px"; 
+    color: "#385e9d"
+}
+
+/* img integrante */
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
