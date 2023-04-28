@@ -9,6 +9,7 @@ import { MembersComponent } from './members/members.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { PitchComponent } from './pitch/pitch.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { SidebarComponent } from './sidebar/sidebar.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
